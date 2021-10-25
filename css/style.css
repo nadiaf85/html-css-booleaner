@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #4ea0ff;
+    background-image: url(../img/pattern.png) ;
+    background-repeat:repeat;
+    background-size: 45%;
+    width: 100%;
+}
+
+main, footer{
+    margin-left: 10px;;
+}
+
+#logo{
+    width: 200px;
+    height: auto;
+    padding-top: 100px;
+}
+
+.tim{
+    margin-top: 25px;
+    max-width: 40%;
+}
+
+.info{
+    color: gray;
+}
+
+table{
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table td{
+    min-width: 250px;
+}
+
+table thead th{
+    color: white;
+}
+
+table thead {
+    background-color: #007fff;
+}
+
+table tbody tr:nth-child(1), tr:nth-child(3){
+    background-color: #b3e6ff;
+}
+
+.articolo1, .articolo2{
+    width: 200px;
+    height: 150px;
+    background-position: center;
+}
+
+footer{
+    color: rgba(0,0,0,0.5);
+}
