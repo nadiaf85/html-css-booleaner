@@ -1,5 +1,5 @@
 body{
-    margin: 5px;
+    margin: 0;
 }
 
 header{
@@ -15,17 +15,31 @@ main, footer{
     margin-left: 10px;;
 }
 
+main{
+    display: inline-block;
+}
 #logo{
     width: 200px;
     height: 50px;
     padding-top: 50px;
 }
 
+.autore{
+    color: #4ea0ff;
+}
+
 .tim{
-    margin-top: 25px;
+    margin-top: 20px;
     max-width: 40%;
 }
 
+.first-photo{
+    font-size: 10px;
+}
+
+.second_photo{
+    font-size: 10px;
+}
 .info{
     color: gray;
 }
@@ -75,12 +89,18 @@ table tbody tr:nth-child(1), tr:nth-child(3){
     background-color: yellow;
 }
 
+h1{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
 h5{
     color: grey;
 }
 
 h3{
     color: white;
+    padding: 10px;
 }
 
 footer{
