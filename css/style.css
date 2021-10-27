@@ -12,12 +12,12 @@ header{
 }
 
 main, footer{
-    margin-left: 10px;;
+    margin-left: 4px;
 }
 
 main{
     width: 80%;
-    margin:0 auto;
+    margin: 4px;
 }
 #logo{
     width: 200px;
@@ -32,15 +32,17 @@ main{
 .tim{
     margin-top: 20px;
     max-width: 40%;
+    height: 387px;
 }
 
-.first-photo{
+.first-photo {
     font-size: 10px;
 }
 
-.second_photo{
+.second-photo{
     font-size: 10px;
 }
+
 .info{
     color: gray;
 }
@@ -73,10 +75,12 @@ table tbody tr:nth-child(1), tr:nth-child(3){
 
 #image-monitor{
     background-image: url(../img/monitor.jpg);
+    margin-top: -10px;
 }
 
 #image-graph{
     background-image: url(../img/graph.jpg);
+    margin-top: -10px;
 }
 .image{
     width: 208px;
@@ -106,4 +110,5 @@ h3{
 
 footer{
     color: rgba(0,0,0,0.5);
+    margin-left: 4px;
 }

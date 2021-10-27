@@ -1,5 +1,5 @@
 body{
-    margin: 5px;
+    margin: 0px;
 }
 
 header{
@@ -42,6 +42,7 @@ main{
 .tim{
     margin-top: 25px;
     max-width: 40%;
+    height: 387px;
 }
 
 .info{
@@ -76,10 +77,12 @@ table tbody tr:nth-child(1), tr:nth-child(3){
 
 #image-monitor{
     background-image: url(../img/monitor.jpg);
+    margin-top: -10px;
 }
 
 #image-graph{
     background-image: url(../img/graph.jpg);
+    margin-top: -10px;
 }
 .image{
     width: 208px;
@@ -93,12 +96,18 @@ table tbody tr:nth-child(1), tr:nth-child(3){
     background-color: yellow;
 }
 
+h1{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
 h5{
     color: grey;
 }
 
 h3{
     color: white;
+    padding: 10px;
 }
 
 footer{
