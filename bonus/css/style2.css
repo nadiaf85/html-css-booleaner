@@ -16,10 +16,27 @@ main, footer{
     margin-right: 80px;
 }
 
+main{
+    width: 80%;
+    margin:0 auto;
+}
+
 #logo{
     width: 200px;
     height: 50px;
     padding-top: 50px;
+}
+
+.autore{
+    color: #4ea0ff;
+}
+
+.first-photo {
+    font-size: 10px;
+}
+
+.second-photo{
+    font-size: 10px;
 }
 
 .tim{
@@ -86,4 +103,5 @@ h3{
 
 footer{
     color: rgba(0,0,0,0.5);
+    margin-left: 10%;
 }

@@ -16,7 +16,8 @@ main, footer{
 }
 
 main{
-    display: inline-block;
+    width: 80%;
+    margin:0 auto;
 }
 #logo{
     width: 200px;
